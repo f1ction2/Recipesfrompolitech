@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="description" content="Odwiedź naszą stronę i odkryj najlepsze przepisy kulinarne! Znajdziesz tu przepisy na dania główne, desery i sałatki.">
+    <meta name="keywords" content="kulinaria, przepisy kulinarne, szybkie przepisym, zdrowe przepisy">
+    <title>Najlepsze przepisy na dania i desery | Przepisy Kulinarne</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <!-- Nawigacja -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Przepisy Kulinarne</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#">Strona główna</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#przepisy">Przepisy</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#kontakt">Kontakt</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Nagłówek -->
+    <header class="bg-primary text-white text-center py-5">
+        <h1>Najlepsze przepisy kulinarne w jednym miejscu!</h1>
+    </header>
+    
+    <!-- Sekcja przepisów -->
+    <section id="przepisy" class="container my-5">
+        <div class="row">
+            <!-- Przepis 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="makaron_z_sosem_pomidorowym.jpg" class="card-img-top" alt="Makaron">
+                    <div class="card-body">
+                        <h5 class="card-title">Makaron z sosem pomidorowym</h5>
+                        <p class="card-text">Pyszny makaron z domowym sosem pomidorowym i bazylią.</p>
+                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalMakaron">Zobacz przepis</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Przepis 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="ciasto-czekoladowe.jpg" class="card-img-top" alt="Ciasto">
+                    <div class="card-body">
+                        <h5 class="card-title">Domowe ciasto czekoladowe</h5>
+                        <p class="card-text">Łatwe i szybkie ciasto czekoladowe, idealne do kawy.</p>
+                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalCiasto">Zobacz przepis</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Przepis 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="salatka-Grecka.jpg" class="card-img-top" alt="Sałatka">
+                    <div class="card-body">
+                        <h5 class="card-title">Świeża sałatka grecka</h5>
+                        <p class="card-text">Lekka sałatka z fetą, pomidorami i oliwkami.</p>
+                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalSalatka">Zobacz przepis</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Dodatkowe przepisy -->
+            <div class="col-md-4 mt-4">
+                <div class="card">
+                    <img src="zupa.jpg" class="card-img-top" alt="Zupa">
+                    <div class="card-body">
+                        <h5 class="card-title">Zupa pomidorowa</h5>
+                        <p class="card-text">Tradycyjna zupa pomidorowa na rosole.</p>
+                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalZupa">Zobacz przepis</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mt-4">
+                <div class="card">
+                    <img src="losos2.jpg" class="card-img-top" alt="Ryba">
+                    <div class="card-body">
+                        <h5 class="card-title">Pieczony łosoś</h5>
+                        <p class="card-text">Soczysty łosoś pieczony w ziołach.</p>
+                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalLosos">Zobacz przepis</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    
+    <!-- Modale z przepisami -->
+    <div class="modal fade" id="modalMakaron" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Makaron z sosem pomidorowym</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Składniki: makaron, pomidory, bazylia, czosnek, oliwa.</p>
+                    <p>Sposób przygotowania: Ugotuj makaron, przygotuj sos z pomidorów i czosnku, wymieszaj.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="modal fade" id="modalCiasto" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Domowe ciasto czekoladowe</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Składniki: mąka, kakao, jajka, cukier, masło.</p>
+                    <p>Sposób przygotowania: Wymieszaj składniki, piecz 40 minut w 180°C.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="modal fade" id="modalSalatka" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Świeża sałatka grecka</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Składniki: pomidory, ogórek, feta, oliwki, oliwa.</p>
+                    <p>Sposób przygotowania: Pokrój składniki, wymieszaj i polej oliwą.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="modal fade" id="modalZupa" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Świeża sałatka grecka</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Składniki: bulion, przecier pomidorowy, cebula, marchewka, śmietana, makaron lub ryż, przyprawy.</p>
+                    <p>Sposób przygotowania: Podsmaż warzywa, dodaj bulion i przecier, gotuj, dopraw, opcjonalnie zblenduj, podawaj z makaronem lub ryżem.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalLosos" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Świeża sałatka grecka</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Składniki: łosoś, oliwa, cytryna, czosnek, sól, pieprz, zioła.</p> 
+                    <p>Sposób przygotowania: Natrzyj łososia przyprawami, skrop oliwą i cytryną, piecz w 200°C przez 15-20 minut.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Stopka -->
+    <footer id="kontakt" class="bg-dark text-white text-center py-3">
+        <p>Kontakt: kontakt@przepisy.pl | &copy; 2025 Przepisy Kulinarne</p>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
